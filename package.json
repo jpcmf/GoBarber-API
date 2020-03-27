@@ -11,7 +11,8 @@
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js",
     "queue": "nodemon src/queue.js",
-    "start": "nodemon src/server.js"
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -35,9 +36,9 @@
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.19.7",
+    "sucrase": "^3.12.1",
     "youch": "^2.0.10",
-    "yup": "^0.27.0",
-    "sucrase": "^3.10.1"
+    "yup": "^0.27.0"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
