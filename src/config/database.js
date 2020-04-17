@@ -11,10 +11,4 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
-  dialectOptions: {
-    dateStrings: true,
-    typeCast: true,
-    useUTC: false, // for reading from database
-  },
-  timezone: 'America/Sao_Paulo',
 };
