@@ -11,4 +11,5 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
+  timezone: '-03:00',
 };
