@@ -14,7 +14,6 @@ module.exports = {
   dialectOptions: {
     dateStrings: true,
     typeCast: true,
-    useUTC: false, // for reading from database
   },
   timezone: 'America/Sao_Paulo',
 };
