@@ -12,7 +12,9 @@ module.exports = {
     underscoredAll: true,
   },
   dialectOptions: {
+    dateStrings: true,
+    typeCast: true,
     useUTC: false, // for reading from database
   },
-  timezone: '-03:00',
+  timezone: 'America/Sao_Paulo',
 };
